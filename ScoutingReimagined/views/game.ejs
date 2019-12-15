@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include templates/head.ejs %>
+</head>
+
+<body>
+<!-- START PAGE CONTAINER -->
+<div class="page-container page-navigation-toggled">
+
+    <% include templates/sidebar.ejs %>
+
+    <!-- PAGE CONTENT -->
+    <div class="page-content">
+
+        <% include templates/xnavigation.ejs %>
+
+
+        <!-- PAGE CONTENT WRAPPER -->
+        <div class="page-content-wrap">
+            <div class="row" style="padding-top: 1%">
+                <div class="col-md-9 col-lg-9 col-xl-9 col-sm-9 col-xs-9">
+                    <video id="gameVideo" style="display: block; margin: auto; width:70vw; height:80vh; margin-bottom: 1vh;" controls muted>
+                        Your browser does not support the video tag.
+                          <source src="/games/<%= gameId %>.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 col-xs-3">
+                    <ul id="timeline" class="timeline pre-scrollable">
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="form-group" id="scouterButtons">
+                                <!-- <div class="col-sm-2">
+                                    <button id="climb" class="btn btn-info btn-block btn-rounded hidden" style="height: 10vh; font-size: xx-large; color:hotpink" onclick="climbGenerator()">Climb</button>
+                                </div> -->
+                                <div class="col-sm-12">
+                                    <button id="comment" class="btn btn-info btn-block btn-rounded hidden" style="height: 10vh; font-size: xx-large; color:purple" onclick="comment_start()">Comment</button>
+                                </div>
+                                <div id="eventsDiv" style="width: 100%; height:10vh;">
+                                    <div class="col-md-12">
+                                        <button id="autonomous_begin" class="btn btn-info btn-block btn-rounded btn-default" style="height: 10vh; font-size: xx-large" onclick="autonomous_start()">Autonomous begin</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- END PAGE CONTENT WRAPPER -->
+    </div>
+    <!-- END PAGE CONTENT -->
+</div>
+<!-- END PAGE CONTAINER -->
+
+<% include templates/logoutMessagebox.ejs %>
+
+<% include templates/footer.ejs%>
+
+<script type="text/javascript">
+    var gameId = parseInt(<%- JSON.stringify(gameId) %>);
+    var teamNumber = parseInt(<%- JSON.stringify(teamNumber) %>);
+
+    var gameVideo = document.getElementById("gameVideo");
+
+    var blueTeams = <%- JSON.stringify(blueTeams) %>;
+    var redTeams = <%- JSON.stringify(redTeams) %>;
+
+    var competition = <%- JSON.stringify(competition )%>;
+
+    var buttonClickEvent = {};
+    var onEnterKeyClick = function(){};
+
+    var autonomousStartTime = null;
+</script>
+
+<script type="text/javascript" src="/js/scouting/events/genericEvent.js"></script>
+<script type="text/javascript" src="/js/scouting/events/autonomousEventsHandling.js"></script>
+<script type="text/javascript" src="/js/scouting/events/commentsEventHandling.js"></script>
+<script type="text/javascript" src="/js/scouting/events/eventGenerator.js"></script>
+
+<script type="text/javascript" src="/js/scouting/events/timeline/utils.js"></script>
+
+
+<script>
+
+    buttonIds = getButtonNames();
+
+    function initializeButtonClickEvent() {
+        buttonClickEvent = getButtonClickEvents();
+    }
+
+    function isFunction(functionToCheck) {
+        var getType = {};
+        return functionToCheck && getType.toString.call(functionToCheck) === '[object Function]';
+    }
+    function hideAllButtons() {
+        buttonIds.forEach(function(buttonId) {
+            $('#' + buttonId).addClass('hidden');
+        })
+        gameVideo.pause();
+    }
+
+    function showEventButtons() {
+        buttonIds.forEach(function(buttonId) {
+            $('#' + buttonId).removeClass('hidden');
+        })
+    }
+
+    function resetButtonClickEvents() {
+        buttonClickEvent = {};
+    }
+
+    var ENTER_KEY = 13;
+    var SPACE_BAR = 32;
+    var ESCAPE_KEY = 27;
+    var VALUE_OF_KEY_1 = 49;
+    var RIGHT_ARROW = 39;
+    var LEFT_ARROW = 37;
+    var J_KEY = 74;
+    var K_KEY = 75;
+    var L_KEY = 76;
+
+    window.onkeydown = function(e) {
+        return !(e.keyCode == 32 && e.target != document.getElementById("commentTextbox"));
+    }
+
+    $(window).keyup(function(e) {
+        var video = document.getElementById("gameVideo");
+        if (e.target != document.body) {
+            console.log("Window not focused - not responding to key click");
+            return;
+        }
+        console.log("clicked key: " + e.which);
+        if (e.which == SPACE_BAR) {
+            e.preventDefault();
+            if (video.paused == true)
+                video.play();
+            else
+                video.pause();
+            return;
+        } else if (e.which == ENTER_KEY) {
+            console.log("Clicked enter!");
+            onEnterKeyClick();
+        } else if (e.which == ESCAPE_KEY) {
+            console.log("Escape was clicked");
+            e.preventDefault();
+            initializeEvents();
+        } else if (e.which == RIGHT_ARROW) {
+            gameVideo.currentTime += 5;
+        } else if (e.which == LEFT_ARROW) {
+            gameVideo.currentTime -= 5;
+        } else if (e.which == J_KEY) {
+            gameVideo.currentTime -= 10;
+        } else if (e.which == K_KEY) {
+            if (video.paused == true)
+                video.play();
+            else
+                video.pause();
+        } else if (e.which == L_KEY) {
+            gameVideo.currentTime += 10;
+	}
+        for(var i = 0; i < 7; i++) {
+            if (e.which == (VALUE_OF_KEY_1 + i) && isFunction(buttonClickEvent[i+1])) {
+                    buttonClickEvent[i + 1]()
+            }
+        }
+    });
+
+    // objects = {type: 'BUTTON'||'SELECT', value: value}
+    function fillEventsDivWithObjects(objects, functionToCallWhenDone) {
+        var eventsDiv = $('#eventsDiv');
+        eventsDiv.empty();
+
+        var gridSize = parseInt(12 / objects.length); // Bootstrap columns grid works on size 12
+        var colClass = 'col-md-' + gridSize;
+
+        var buttonIndex = 1;
+
+        resetButtonClickEvents();
+
+        objects.forEach(function(object) {
+            if (!object['type'] || !object['value']) {
+                console.error("Error got wrong form of objects in function fillEventsDivWithObjects! wrong format: " + objects);
+                return;
+            }
+            var element = null;
+            switch (object.type) {
+                case 'button':
+                    element = document.createElement("div");
+                    element.className = colClass;
+                    var button = document.createElement("button")
+                    button.className = "btn btn-info btn-block btn-rounded event-button";
+                    var buttonText = document.createTextNode(object.value);
+                    button.appendChild(buttonText);
+                    button.addEventListener("click", function() {functionToCallWhenDone(object.value)} );
+                    element.appendChild(button);
+
+                    // key value of '1': 49
+                    buttonClickEvent[buttonIndex++] = function() { functionToCallWhenDone(object.value) };
+
+                    break;
+                case 'buttonSelect':
+                    //Create and append select list
+                    element = document.createElement("div");
+                    element.className = colClass;
+//                    element.id = "shootingFailureSelect";
+
+                    console.log("object in select: " + JSON.stringify(object));
+
+                    var heightInVh = 10.0 / object.value.length;
+
+                    //Create and append the options
+                    object.value.forEach(function(optionValue) {
+                        var button = document.createElement("button");
+                        button.className = "btn btn-info btn-block btn-rounded event-button";
+                        button.text = optionValue;
+                        button.setAttribute("style", "height:" + heightInVh + "vh;!important");
+
+                        var buttonText = document.createTextNode(optionValue);
+                        button.appendChild(buttonText);
+                        button.addEventListener("click", function() {functionToCallWhenDone(optionValue)} );
+                        buttonClickEvent[buttonIndex++] = function() { functionToCallWhenDone(optionValue) };
+
+                        element.appendChild(button);
+                    });
+
+                    break;
+                case 'text':
+                                        //Create and append select list
+                    element = document.createElement("div");
+                    element.className = "div-md-12";
+//                    element.id = "shootingFailureSelect";
+
+                    console.log("object in select: " + JSON.stringify(object));
+
+
+                    //Create and append the options
+                    var textarea = document.createElement("textarea");
+                    textarea.setAttribute("class", "form-control");
+                    textarea.setAttribute("style", "height:9vh;!important");
+                    textarea.id = "commentTextbox";
+
+                    var button = document.createElement("button");
+                    button.className = "btn btn-info btn-block btn-rounded event-button";
+                    button.setAttribute("style", "height:9vh;!important");
+
+                    var buttonText = document.createTextNode("Submit");
+                    button.appendChild(buttonText);
+                    button.addEventListener("click", function() {functionToCallWhenDone(textarea.value)} );
+                    buttonClickEvent[buttonIndex++] = function() { functionToCallWhenDone(textarea.value) };
+
+                    element.appendChild(textarea);
+                    element.appendChild(button);
+ 
+                    break;
+
+            }
+
+            eventsDiv.append(element);
+        });
+
+        eventsDiv.removeClass('hidden')
+    }
+
+
+    function hideEventsDiv() {
+        var eventsDiv = $('#eventsDiv');
+        eventsDiv.empty();
+        eventsDiv.addClass('hidden');
+    }
+
+    function initializeEvents() {
+        hideEventsDiv();
+        showEventButtons();
+        initializeButtonClickEvent();
+    }
+
+    function sendEvent(event) {
+        addEventToTimeline(event);
+        console.log('Sending event: ' + JSON.stringify(event));
+        $.ajax({
+            type: "POST",
+            url: '/event',
+            data: {
+                eventJSON: JSON.stringify(event)
+            }
+        });
+    }
+
+</script>
+
+<script>
+    onEnterKeyClick = autonomous_start;
+    initializeTimeline(gameId, teamNumber);
+</script>
+
+
+</body>
+
+</html>

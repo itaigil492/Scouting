@@ -1,0 +1,1283 @@
+[
+  {
+    "_id": "6daee710-01ca-11e7-bec9-799202051099",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Chassis fight",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":4,\"size_y\":4,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"75649d50-01c6-11e7-bec9-799202051099\",\"col\":1,\"row\":1},{\"size_x\":5,\"size_y\":4,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"d109eb10-01c6-11e7-bec9-799202051099\",\"col\":6,\"row\":1},{\"size_x\":5,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"f76a8db0-01c5-11e7-bec9-799202051099\",\"col\":1,\"row\":5}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "e215a3a0-01ca-11e7-bec9-799202051099",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Stuck",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":5,\"size_y\":4,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"d270f850-01ca-11e7-bec9-799202051099\",\"col\":1,\"row\":1},{\"size_x\":3,\"size_y\":2,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"acab0480-01ca-11e7-bec9-799202051099\",\"col\":4,\"row\":5},{\"size_x\":5,\"size_y\":4,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"ba104720-01ca-11e7-bec9-799202051099\",\"col\":7,\"row\":1}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "7cd62a30-01b8-11e7-bec9-799202051099",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Shooting",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":4,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"05692f50-01b4-11e7-bec9-799202051099\",\"col\":1,\"row\":1},{\"size_x\":3,\"size_y\":2,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"c0ab0790-01b2-11e7-bec9-799202051099\",\"col\":7,\"row\":4},{\"size_x\":3,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"29c089e0-01b2-11e7-bec9-799202051099\",\"col\":5,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"d7a39d40-01b2-11e7-bec9-799202051099\",\"col\":9,\"row\":1},{\"size_x\":3,\"size_y\":4,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"d4692830-01b1-11e7-bec9-799202051099\",\"col\":1,\"row\":4},{\"size_x\":3,\"size_y\":4,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"117f95b0-01b2-11e7-bec9-799202051099\",\"col\":4,\"row\":4},{\"size_x\":3,\"size_y\":2,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"908d6070-01cc-11e7-bec9-799202051099\",\"col\":10,\"row\":4},{\"size_x\":3,\"size_y\":2,\"panelIndex\":8,\"type\":\"visualization\",\"id\":\"5e33b560-01cd-11e7-9f3a-1fca019b087c\",\"col\":10,\"row\":6},{\"size_x\":3,\"size_y\":2,\"panelIndex\":9,\"type\":\"visualization\",\"id\":\"2ac35900-0264-11e7-a0ed-25361c6fc1b5\",\"col\":7,\"row\":6}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "3a7c2140-01a3-11e7-be77-9349f3845c3e",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Achievements",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"47096550-01a1-11e7-be77-9349f3845c3e\",\"panelIndex\":1,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"e90f0400-01a0-11e7-be77-9349f3845c3e\",\"panelIndex\":2,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"2268b7a0-01a1-11e7-be77-9349f3845c3e\",\"panelIndex\":3,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"5164dfd0-01a0-11e7-be77-9349f3845c3e\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"11839d10-01a1-11e7-be77-9349f3845c3e\",\"panelIndex\":5,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"0a2f6490-01a1-11e7-be77-9349f3845c3e\",\"panelIndex\":6,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"d2cecc60-01a1-11e7-be77-9349f3845c3e\",\"panelIndex\":7,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"fb9221b0-01a1-11e7-be77-9349f3845c3e\",\"panelIndex\":8,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"0792f250-01a2-11e7-be77-9349f3845c3e\",\"panelIndex\":9,\"row\":5,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"7b005030-01a1-11e7-be77-9349f3845c3e\",\"panelIndex\":10,\"row\":5,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"87e3dfb0-01a1-11e7-be77-9349f3845c3e\",\"panelIndex\":11,\"row\":5,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"teamNumber\",\"gameId\",\"content\"],\"id\":\"d3c3a8d0-0303-11e7-bc85-394446c14930\",\"panelIndex\":12,\"row\":7,\"size_x\":6,\"size_y\":4,\"sort\":[\"_score\",\"desc\"],\"type\":\"search\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"teamNumber:0000\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "0a20bb90-01c2-11e7-bec9-799202051099",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Ball pick up",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"abad0100-01c0-11e7-bec9-799202051099\",\"panelIndex\":1,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"94e7b050-01c0-11e7-bec9-799202051099\",\"panelIndex\":2,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":9,\"id\":\"7e2768b0-01c0-11e7-bec9-799202051099\",\"panelIndex\":3,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"cba61fa0-01c0-11e7-bec9-799202051099\",\"panelIndex\":4,\"row\":13,\"size_x\":7,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"44c6fe50-01c0-11e7-bec9-799202051099\",\"panelIndex\":5,\"row\":9,\"size_x\":12,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"0b019b20-01c1-11e7-bec9-799202051099\",\"panelIndex\":6,\"row\":4,\"size_x\":12,\"size_y\":5,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "9db15bb0-01c9-11e7-9615-f3b41823492d",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Climb",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":10,\"id\":\"50ee7ab0-01c9-11e7-9615-f3b41823492d\",\"panelIndex\":1,\"row\":5,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"92bd4020-01c9-11e7-9615-f3b41823492d\",\"panelIndex\":2,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"3a97ca50-01c9-11e7-9615-f3b41823492d\",\"panelIndex\":3,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"1e502580-01ca-11e7-9615-f3b41823492d\",\"panelIndex\":4,\"row\":5,\"size_x\":8,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"adef87e0-01c9-11e7-9615-f3b41823492d\",\"panelIndex\":5,\"row\":1,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":5,\"id\":\"b7b2c490-01c9-11e7-9615-f3b41823492d\",\"panelIndex\":6,\"row\":1,\"size_x\":5,\"size_y\":4,\"type\":\"visualization\"},{\"col\":4,\"id\":\"275c18c0-01cd-11e7-9f3a-1fca019b087c\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"size_x\":3,\"size_y\":2,\"panelIndex\":8,\"type\":\"visualization\",\"id\":\"25967e80-01ce-11e7-9f3a-1fca019b087c\",\"col\":1,\"row\":7},{\"size_x\":4,\"size_y\":2,\"panelIndex\":9,\"type\":\"visualization\",\"id\":\"7fa05950-0a61-11e7-92ed-e9aeff0bb4ce\",\"col\":7,\"row\":7}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "73b71cc0-01b8-11e7-bec9-799202051099",
+    "_type": "dashboard",
+    "_source": {
+      "title": "General",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"fce6e1a0-01b4-11e7-bec9-799202051099\",\"panelIndex\":1,\"row\":1,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":6,\"id\":\"4434d2a0-01cf-11e7-9f3a-1fca019b087c\",\"panelIndex\":2,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":10,\"id\":\"2ac35900-0264-11e7-a0ed-25361c6fc1b5\",\"panelIndex\":5,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":3,\"id\":\"c0ab0790-01b2-11e7-bec9-799202051099\",\"panelIndex\":6,\"row\":5,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":8,\"id\":\"47096550-01a1-11e7-be77-9349f3845c3e\",\"panelIndex\":7,\"row\":4,\"size_x\":1,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"7b005030-01a1-11e7-be77-9349f3845c3e\",\"panelIndex\":8,\"row\":3,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"1e502580-01ca-11e7-9615-f3b41823492d\",\"panelIndex\":9,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"4d4b1830-01a8-11e7-804d-297fbbd76509\",\"panelIndex\":10,\"row\":7,\"size_x\":7,\"size_y\":3,\"type\":\"visualization\"},{\"col\":10,\"id\":\"adef87e0-01c9-11e7-9615-f3b41823492d\",\"panelIndex\":11,\"row\":5,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"275c18c0-01cd-11e7-9f3a-1fca019b087c\",\"panelIndex\":12,\"row\":10,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":6,\"id\":\"ec0a0660-0262-11e7-a0ed-25361c6fc1b5\",\"panelIndex\":13,\"row\":4,\"size_x\":1,\"size_y\":2,\"type\":\"visualization\"},{\"col\":3,\"id\":\"ce76e660-0ad5-11e7-a231-65a56e04d0f6\",\"panelIndex\":14,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"size_x\":3,\"size_y\":2,\"panelIndex\":15,\"type\":\"visualization\",\"id\":\"275c18c0-01cd-11e7-9f3a-1fca019b087c\",\"col\":8,\"row\":7}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-10\":{\"vis\":{\"colors\":{\"status:Failure\":\"#BF1B00\",\"status:Success\":\"#3F6833\"}}},\"P-11\":{\"vis\":{\"colors\":{\"Failure\":\"#BF1B00\",\"Success\":\"#3F6833\"}}},\"P-6\":{\"vis\":{\"legendOpen\":true}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"teamNumber:4590\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "201b7390-0262-11e7-a0ed-25361c6fc1b5",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Best teams",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":4,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"fb02aa90-01af-11e7-90be-83a3dbba9648\",\"col\":1,\"row\":1},{\"size_x\":6,\"size_y\":3,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"532273f0-0ad8-11e7-b466-1940697b7fe3\",\"col\":6,\"row\":1},{\"size_x\":7,\"size_y\":5,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"79135380-0331-11e7-9e2d-9907bac12817\",\"col\":1,\"row\":4},{\"size_x\":3,\"size_y\":2,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"d270f850-01ca-11e7-bec9-799202051099\",\"col\":8,\"row\":4}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"(teamNumber:4590 OR teamNumber:5987 OR teamNumber:6736 )AND gameId:[54 TO *]\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "982a67f0-01af-11e7-90be-83a3dbba9648",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Gear place",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"4803bc20-01a7-11e7-804d-297fbbd76509\",\"panelIndex\":1,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"601a3a60-01a6-11e7-804d-297fbbd76509\",\"panelIndex\":5,\"row\":4,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"70dee9f0-01cd-11e7-9f3a-1fca019b087c\",\"panelIndex\":8,\"row\":13,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":8,\"id\":\"a44cf680-0261-11e7-a0ed-25361c6fc1b5\",\"panelIndex\":11,\"row\":21,\"size_x\":5,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"ec0a0660-0262-11e7-a0ed-25361c6fc1b5\",\"panelIndex\":12,\"row\":21,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":5,\"id\":\"6cdf0d50-0261-11e7-a0ed-25361c6fc1b5\",\"panelIndex\":13,\"row\":21,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e757ac70-0263-11e7-a0ed-25361c6fc1b5\",\"panelIndex\":14,\"row\":15,\"size_x\":8,\"size_y\":6,\"type\":\"visualization\"},{\"col\":5,\"id\":\"79135380-0331-11e7-9e2d-9907bac12817\",\"panelIndex\":15,\"row\":1,\"size_x\":8,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"4b7fbc00-0332-11e7-b937-d5bf04b5fc74\",\"panelIndex\":16,\"row\":4,\"size_x\":8,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"53ac0f90-0333-11e7-b937-d5bf04b5fc74\",\"panelIndex\":17,\"row\":8,\"size_x\":12,\"size_y\":5,\"type\":\"visualization\"},{\"col\":5,\"id\":\"1598e230-0aec-11e7-b50e-8f4082cba875\",\"panelIndex\":18,\"row\":13,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-15\":{\"vis\":{\"colors\":{\"Failure\":\"#BF1B00\",\"Success\":\"#629E51\"}}},\"P-18\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"teamNumber:2679 OR teamNumber:5987\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "d3c3a8d0-0303-11e7-bc85-394446c14930",
+    "_type": "search",
+    "_source": {
+      "title": "Comments",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "teamNumber",
+        "gameId",
+        "content"
+      ],
+      "sort": [
+        "_score",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"filter\":[],\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"require_field_match\":false,\"fragment_size\":2147483647},\"query\":{\"query_string\":{\"query\":\"_type:comment\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "7e9ff610-01aa-11e7-804d-297fbbd76509",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place - successful gear placement according to location",
+      "visState": "{\"title\":\"Gear place - successful gear placement according to location\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"asc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"location:Left\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"location:Center\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"location:Right\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"status:Failure\":\"#BF1B00\",\"status:Success\":\"#629E51\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "856c0840-01a9-11e7-804d-297fbbd76509",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place - successful/failed placement in autonomous",
+      "visState": "{\"title\":\"Gear place - successful/failed placement in autonomous\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"asc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"status:Success\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"status:Failure\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"status:Failure\":\"#BF1B00\",\"status:Success\":\"#629E51\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND matchPart:autonomous\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3c4d3390-01aa-11e7-804d-297fbbd76509",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place - successful/failed placement",
+      "visState": "{\"title\":\"Gear place - successful/failed placement\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"asc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"status:Success\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"status:Failure\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"status:Failure\":\"#BF1B00\",\"status:Success\":\"#629E51\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e90f0400-01a0-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can pick up balls from the feeder",
+      "visState": "{\"title\":\"Can pick up balls from the feeder\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\",\"customLabel\":\"Can pick up gears from the feeder\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Ball AND location:Feeder AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d2cecc60-01a1-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can place gears",
+      "visState": "{\"title\":\"Can place gears\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\",\"customLabel\":\"Can place gears\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "35befb70-01b0-11e7-90be-83a3dbba9648",
+    "_type": "visualization",
+    "_source": {
+      "title": "Heatmap of event start time",
+      "visState": "{\"title\":\"Heatmap of event start time\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":4,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"startTime\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 9\":\"rgb(247,252,245)\",\"9 - 18\":\"rgb(199,233,192)\",\"18 - 27\":\"rgb(116,196,118)\",\"27 - 35\":\"rgb(35,139,69)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fb02aa90-01af-11e7-90be-83a3dbba9648",
+    "_type": "visualization",
+    "_source": {
+      "title": "Teams cloud - positive events",
+      "visState": "{\"title\":\"Teams cloud - positive events\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":18,\"maxFontSize\":72},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"teamNumber\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"(_type:gearplace OR _type:shooting OR _type:climb) AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c0ab0790-01b2-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Shooting - failure or success each game",
+      "visState": "{\"title\":\"Shooting - failure or success each game\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"status:Success\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"status:Failure\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d7a39d40-01b2-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Shooting - goal location",
+      "visState": "{\"title\":\"Shooting - goal location\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"location:High\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"location:Low\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4ff7f570-01b8-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Shots successful in autonomous per game",
+      "visState": "{\"title\":\"Shots successful in autonomous per game\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Shot\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting AND matchPart:autonomous\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "117f95b0-01b2-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Shooting - location with success rate",
+      "visState": "{\"title\":\"Shooting - location with success rate\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "05692f50-01b4-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Shooting - duration distribution",
+      "visState": "{\"title\":\"Shooting - duration distribution\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeTook\",\"interval\":2,\"extended_bounds\":{},\"customLabel\":\"Shooting duration\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Count\":\"#BF1B00\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3a03e630-01b2-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place fail reason",
+      "visState": "{\"title\":\"Gear place fail reason\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"failReason\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "7e2768b0-01c0-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Ball pick up - location",
+      "visState": "{\"title\":\"Ball pick up - location\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Ball\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "94e7b050-01c0-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Ball pick up - success rate",
+      "visState": "{\"title\":\"Ball pick up - success rate\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Ball\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "2268b7a0-01a1-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can pick up balls from the floor",
+      "visState": "{\"title\":\"Can pick up balls from the floor\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Ball AND location:Floor AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "11839d10-01a1-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can pick up gears from the feeder",
+      "visState": "{\"title\":\"Can pick up gears from the feeder\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\",\"customLabel\":\"Can pick up gears from the feeder\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Gear AND location:Feeder AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "47096550-01a1-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can climb",
+      "visState": "{\"title\":\"Can climb\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\",\"customLabel\":\"Can Climb\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:climb AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "5164dfd0-01a0-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can pick up balls from the hopper",
+      "visState": "{\"title\":\"Can pick up balls from the hopper\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\",\"customLabel\":\"Can pick up balls from the hopper\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Ball AND location:Hopper AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d4692830-01b1-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Shooting - location",
+      "visState": "{\"title\":\"Shooting - location\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "abad0100-01c0-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Ball pick up - success rate as a function of location",
+      "visState": "{\"title\":\"Ball pick up - success rate as a function of location\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Ball\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "29c089e0-01b2-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Shooting - failure reason",
+      "visState": "{\"title\":\"Shooting - failure reason\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"failReason\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "7ede11b0-01c4-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear pick up - success rate as a function of location",
+      "visState": "{\"title\":\"Gear pick up - success rate as a function of location\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Failure\":\"#BF1B00\",\"Success\":\"#508642\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Gear\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d2ce5960-01b0-11e7-90be-83a3dbba9648",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place - time took distribution",
+      "visState": "{\"title\":\"Gear place - time took distribution\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"customLabel\":\"Event duration\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeTook\",\"interval\":3,\"min_doc_count\":false,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"_type:gearplace\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "cba61fa0-01c0-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Ball pick up - failure reasons",
+      "visState": "{\"title\":\"Ball pick up - failure reasons\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"failReason\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Ball\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3a234fe0-01c4-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear pick up - fail reason",
+      "visState": "{\"title\":\"Gear pick up - fail reason\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"failReason\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Gear\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c0381c50-01c4-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear pick up - count per game",
+      "visState": "{\"title\":\"Gear pick up - count per game\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Gear\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "9bdba390-01c4-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear pick up - duration distribution",
+      "visState": "{\"title\":\"Gear pick up - duration distribution\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"customLabel\":\"Event duration\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeTook\",\"interval\":4,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Gear\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b1d566e0-01c4-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Event count per game",
+      "visState": "{\"title\":\"Event count per game\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4ed047e0-01c4-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear pick up - success rate",
+      "visState": "{\"title\":\"Gear pick up - success rate\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Gear\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d109eb10-01c6-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Chassis fight - fights initiated/got attacked as a function of game id",
+      "visState": "{\"title\":\"Chassis fight - fights initiated/got attacked as a function of game id\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"initiated\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:chassisFight\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "7a57b650-01b0-11e7-90be-83a3dbba9648",
+    "_type": "visualization",
+    "_source": {
+      "title": "Distribution of event time took",
+      "visState": "{\"title\":\"Distribution of event time took\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"customLabel\":\"Event duration\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeTook\",\"interval\":4,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f76a8db0-01c5-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Chassis fight - initiated fight?",
+      "visState": "{\"title\":\"Chassis fight - initiated fight?\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"initiated\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Initiated fight?\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:chassisFight\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "acab0480-01ca-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Stuck - reasons",
+      "visState": "{\"title\":\"Stuck - reasons\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"failReason\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:stuck\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "50ee7ab0-01c9-11e7-9615-f3b41823492d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Amount of games played",
+      "visState": "{\"title\":\"Amount of games played\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"gameId\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "275c18c0-01cd-11e7-9f3a-1fca019b087c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Climb - average duration",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customLabel\":\"Average duration\",\"field\":\"timeTook\"},\"schema\":\"metric\",\"type\":\"avg\"}],\"listeners\":{},\"params\":{\"fontSize\":60,\"handleNoResults\":true},\"title\":\"Climb - average duration\",\"type\":\"metric\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"_type:climb\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "83643c70-01cc-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Event average duration",
+      "visState": "{\"title\":\"Event average duration\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"customLabel\":\"Average duration\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "5e33b560-01cd-11e7-9f3a-1fca019b087c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Shooting - median time",
+      "visState": "{\"title\":\"Shooting - median time\",\"type\":\"metric\",\"params\":{\"fontSize\":60,\"handleNoResults\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"median\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"percents\":[50]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "25967e80-01ce-11e7-9f3a-1fca019b087c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Climb - median duration",
+      "visState": "{\"title\":\"Climb - median duration\",\"type\":\"metric\",\"params\":{\"fontSize\":60,\"handleNoResults\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"customLabel\":\"Median duration(seconds)\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"_type:climb\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4434d2a0-01cf-11e7-9f3a-1fca019b087c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Events distribution during the game",
+      "visState": "{\"title\":\"Events distribution during the game\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"_type\",\"size\":6,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "321675c0-01c4-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear pick up - location",
+      "visState": "{\"title\":\"Gear pick up - location\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Gear\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "adef87e0-01c9-11e7-9615-f3b41823492d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Climb - success rate",
+      "visState": "{\"title\":\"Climb - success rate\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Failure\":\"#BF1B00\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:climb\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3a97ca50-01c9-11e7-9615-f3b41823492d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Climb - games successfully climbed",
+      "visState": "{\"title\":\"Climb - games successfully climbed\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"gameId\",\"customLabel\":\"Games the robot successfully climbed on\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:climb AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "92bd4020-01c9-11e7-9615-f3b41823492d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Climb - amount of games the robot tried to climb",
+      "visState": "{\"title\":\"Climb - amount of games the robot tried to climb\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"gameId\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:climb\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b01d5d00-01cc-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear pick up - average duration",
+      "visState": "{\"title\":\"Gear pick up - average duration\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"customLabel\":\"Average duration\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Gear\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ba104720-01ca-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Stuck - recovery",
+      "visState": "{\"title\":\"Stuck - recovery\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"recovered\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:stuck\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b6a4f6b0-01cc-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Ball pick up - average duration",
+      "visState": "{\"title\":\"Ball pick up - average duration\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"customLabel\":\"Average duration\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Ball\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "908d6070-01cc-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Shooting - average duration",
+      "visState": "{\"title\":\"Shooting - average duration\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"customLabel\":\"Average duration\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "75649d50-01c6-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Chassis fight - count per game",
+      "visState": "{\"title\":\"Chassis fight - count per game\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":\"79\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"asc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"count\",\"schema\":\"radius\",\"params\":{}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:chassisFight\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "6cdf0d50-0261-11e7-a0ed-25361c6fc1b5",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place - successions",
+      "visState": "{\"title\":\"Gear place - successions\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "741c6270-0261-11e7-a0ed-25361c6fc1b5",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place - attempts",
+      "visState": "{\"title\":\"Gear place - attempts\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e757ac70-0263-11e7-a0ed-25361c6fc1b5",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear Place - Success And Failures Per Game",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"4\",\"params\":{\"field\":\"gameId\",\"order\":\"desc\",\"orderBy\":\"1\",\"row\":true,\"size\":5},\"schema\":\"split\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"field\":\"status\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":5},\"schema\":\"segment\",\"type\":\"terms\"}],\"listeners\":{},\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":false,\"legendPosition\":\"right\"},\"title\":\"Gear Place - Success And Failures Per Game\",\"type\":\"pie\"}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Failure\":\"#890F02\",\"Success\":\"#3F6833\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"_type:gearplace\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "2ac35900-0264-11e7-a0ed-25361c6fc1b5",
+    "_type": "visualization",
+    "_source": {
+      "title": "Shooting - Success And Failures Per Game",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"4\",\"params\":{\"field\":\"gameId\",\"order\":\"desc\",\"orderBy\":\"1\",\"row\":true,\"size\":5},\"schema\":\"split\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"field\":\"status\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":5},\"schema\":\"segment\",\"type\":\"terms\"}],\"listeners\":{},\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":false,\"legendPosition\":\"right\"},\"title\":\"Shooting - Success And Failures Per Game\",\"type\":\"pie\"}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Failure\":\"#890F02\",\"Success\":\"#3F6833\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a44cf680-0261-11e7-a0ed-25361c6fc1b5",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place - success rate",
+      "visState": "{\"title\":\"Gear place - success rate\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ec0a0660-0262-11e7-a0ed-25361c6fc1b5",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total games reviewed on team",
+      "visState": "{\"title\":\"Total games reviewed on team\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"gameId\",\"customLabel\":\"Games reviewed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "0b019b20-01c1-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Ball pick up - Success/Failure per game",
+      "visState": "{\"title\":\"Ball pick up - Success/Failure per game\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":1000,\"order\":\"asc\",\"orderBy\":\"_term\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"status\",\"size\":5,\"order\":\"asc\",\"orderBy\":\"_term\",\"customLabel\":\"Status\",\"row\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Ball\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "44c6fe50-01c0-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Ball pick up - duration distribution",
+      "visState": "{\"title\":\"Ball pick up - duration distribution\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeTook\",\"interval\":4,\"min_doc_count\":true,\"extended_bounds\":{\"min\":0,\"max\":60}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Ball\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "7fa05950-0a61-11e7-92ed-e9aeff0bb4ce",
+    "_type": "visualization",
+    "_source": {
+      "title": "Climb - fail reason",
+      "visState": "{\"title\":\"Climb - fail reason\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"failReason\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:climb\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fb9221b0-01a1-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can place gears in autonomous",
+      "visState": "{\"title\":\"Can place gears in autonomous\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\",\"customLabel\":\"Can place gears in autonomous\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND status:Success AND matchPart:autonomous\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "0792f250-01a2-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can shoot in autonomous",
+      "visState": "{\"title\":\"Can shoot in autonomous\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\",\"customLabel\":\"Can shoot in autonomous\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting AND status:Success AND matchPart:autonomous\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "7b005030-01a1-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can shoot to high",
+      "visState": "{\"title\":\"Can shoot to high\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\",\"customLabel\":\"Can shoot to high goal\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting AND location:High AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "87e3dfb0-01a1-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can shoot to low",
+      "visState": "{\"title\":\"Can shoot to low\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\",\"customLabel\":\"Can shoot to low goal\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:shooting AND location:Low AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4d4b1830-01a8-11e7-804d-297fbbd76509",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place - count per game",
+      "visState": "{\"title\":\"Gear place - count per game\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":20,\"order\":\"asc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"status:Success\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"status:Failure\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"status:Failure\":\"#BF1B00\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "01765510-0ada-11e7-aa9a-c523b6b5c69e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Climb - count per game",
+      "visState": "{\"title\":\"Climb - count per game\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":20,\"order\":\"asc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"status:Success\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"status:Failure\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"status:Failure\":\"#BF1B00\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:climb\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b7b2c490-01c9-11e7-9615-f3b41823492d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Climb - success rate as a function of game id",
+      "visState": "{\"title\":\"Climb - success rate as a function of game id\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":8,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Failure\":\"#BF1B00\",\"Success\":\"#629E51\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:climb\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "1e502580-01ca-11e7-9615-f3b41823492d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Climb - games climbed in",
+      "visState": "{\"title\":\"Climb - games climbed in\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"gameId\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:climb AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fce6e1a0-01b4-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Events - Autonomous events distribution",
+      "visState": "{\"title\":\"Events - Autonomous events distribution\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"_type\",\"size\":6,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Event name\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"matchPart:autonomous AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ce76e660-0ad5-11e7-a231-65a56e04d0f6",
+    "_type": "visualization",
+    "_source": {
+      "title": "Autonomous gear place location",
+      "visState": "{\"title\":\"Autonomous gear place location\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND status:Success AND matchPart:autonomous\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "532273f0-0ad8-11e7-b466-1940697b7fe3",
+    "_type": "visualization",
+    "_source": {
+      "title": "Teams events table",
+      "visState": "{\"title\":\"Teams events table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"bucket\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND status:Success\",\"analyze_wildcard\":true}}},\"label\":\"Gear place\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"_type:shooting AND status:Success\",\"analyze_wildcard\":true}}},\"label\":\"Shooting\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"_type:climb AND status:Success\",\"analyze_wildcard\":true}}},\"label\":\"Climb\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"_type:chassisFights AND status:Success\",\"analyze_wildcard\":true}}},\"label\":\"Chassis fights\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"_type:stuck AND status:Success\",\"analyze_wildcard\":true}}},\"label\":\"Stuck\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND status:Success AND matchPart:autonomous\",\"analyze_wildcard\":true}}},\"label\":\"Gears in autonomous\"}]}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"teamNumber\",\"size\":256,\"order\":\"desc\",\"orderBy\":\"1\",\"row\":false}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"gameId:[54 TO *]\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "79135380-0331-11e7-9e2d-9907bac12817",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear Place Per Game Success/Failure",
+      "visState": "{\"title\":\"Gear Place Per Game Success/Failure\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":1000,\"order\":\"asc\",\"orderBy\":\"_term\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"status\",\"size\":1000,\"order\":\"asc\",\"orderBy\":\"_term\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"teamNumber\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Team #\",\"row\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Failure\":\"#BF1B00\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "601a3a60-01a6-11e7-804d-297fbbd76509",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place - placement in autonomous location",
+      "visState": "{\"title\":\"Gear place - placement in autonomous location\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"teamNumber\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Team #\",\"row\":true}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Success\":\"#629E51\",\"Failure\":\"#BF1B00\",\"Left\":\"#D683CE\",\"Center\":\"#967302\",\"Right\":\"#82B5D8\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"_type:gearplace AND matchPart:autonomous\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4b7fbc00-0332-11e7-b937-d5bf04b5fc74",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear Place Successful/Failure in Autonomous",
+      "visState": "{\"title\":\"Gear Place Successful/Failure in Autonomous\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":1000,\"order\":\"asc\",\"orderBy\":\"_term\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"teamNumber\",\"size\":2,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Team #\",\"row\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND matchPart:autonomous\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "90fc9e40-0ae6-11e7-8115-d5b26c796c8e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Successful climbs per team",
+      "visState": "{\"title\":\"Successful climbs per team\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Successful climbs\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"teamNumber\",\"size\":50000,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Team Number\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:climb AND status:Success AND gameId:[54 TO *]\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d270f850-01ca-11e7-bec9-799202051099",
+    "_type": "visualization",
+    "_source": {
+      "title": "Stuck - count per game",
+      "visState": "{\"title\":\"Stuck - count per game\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"teamNumber\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"row\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:stuck\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4803bc20-01a7-11e7-804d-297fbbd76509",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear place location",
+      "visState": "{\"title\":\"Gear place location\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"teamNumber\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Team #\",\"row\":true}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "53ac0f90-0333-11e7-b937-d5bf04b5fc74",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear Place Success Per Location Per Game",
+      "visState": "{\"title\":\"Gear Place Success Per Location Per Game\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"gameId\",\"size\":1000,\"order\":\"asc\",\"orderBy\":\"_term\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"location\",\"size\":5,\"order\":\"asc\",\"orderBy\":\"_term\",\"customLabel\":\"Location\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"teamNumber\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Team #\",\"row\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "1598e230-0aec-11e7-b50e-8f4082cba875",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear Place - average duration",
+      "visState": "{\"title\":\"Gear Place - average duration\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"customLabel\":\"Time Took\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"teamNumber\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Team #\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "85fba2b0-0aec-11e7-80b4-559de2ba887f",
+    "_type": "visualization",
+    "_source": {
+      "title": "Gear Place - Median Duration",
+      "visState": "{\"title\":\"Gear Place - Median Duration\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"median\",\"schema\":\"metric\",\"params\":{\"field\":\"timeTook\",\"percents\":[50],\"customLabel\":\"Time Took\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"teamNumber\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Team #\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:gearplace\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "0a2f6490-01a1-11e7-be77-9349f3845c3e",
+    "_type": "visualization",
+    "_source": {
+      "title": "Can pick up gears from the floor",
+      "visState": "{\"title\":\"Can pick up gears from the floor\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"status\",\"customLabel\":\"Can pick up gears from the floor\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"events\",\"query\":{\"query_string\":{\"query\":\"_type:pickup AND type:Gear AND location:Floor AND status:Success\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]

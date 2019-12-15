@@ -1,0 +1,39 @@
+version: '2'
+
+services:
+  scoutingreimagined:
+    build: ScoutingReimagined/
+    environment:
+      NODE_ENV: production
+    ports:
+      - '3000:3000'
+      - '9000:9000'
+    networks:
+      - scouting
+    depends_on:
+      - elasticsearch
+    volumes:
+      - .:/home/app/scoutingreimagined
+      - /home/app/scoutingreimagined/node_modules
+  elasticsearch:
+    build: elasticsearch/
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+    networks:
+      - scouting
+  kibana:
+    build: kibana/
+    volumes:
+      - ./kibana/config/:/etc/kibana/
+    ports:
+      - "5601:5601"
+    networks:
+      - scouting
+    depends_on:
+      - elasticsearch
+networks:
+  scouting:
+    driver: bridge

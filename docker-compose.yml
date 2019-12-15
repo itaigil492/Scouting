@@ -1,0 +1,41 @@
+version: '2'
+
+services:
+  scoutingreimagined:
+    build: ScoutingReimagined/
+    command: node_modules/.bin/nodemon --ignore ScoutingReimagined/public/games -L ScoutingReimagined/bin/www
+    environment:
+      NODE_ENV: development
+    ports:
+      - '3000:3000'
+      - '9000:9000'
+    networks:
+      - scouting
+    depends_on:
+      - elasticsearch
+    volumes:
+      - .:/home/app/scoutingreimagined
+      - /home/app/scoutingreimagined/node_modules
+  elasticsearch:
+    build: elasticsearch/
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+      script.engine.groovy.inline.search: "on"
+    networks:
+      - scouting
+  kibana:
+    build: kibana/
+    volumes:
+      - ./kibana/config/:/etc/kibana/
+    ports:
+      - "5601:5601"
+    networks:
+      - scouting
+    depends_on:
+      - elasticsearch
+networks:
+  scouting:
+    driver: bridge
